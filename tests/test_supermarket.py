@@ -41,6 +41,4 @@ class TestingSupermarket:
         with pytest.raises(Exception):
             checkout.add_item('c')
 
-#  for a report in html format:
-#  open git and cd into the directory of your project
-#  command: python -m pytest --html=./report.html
+
